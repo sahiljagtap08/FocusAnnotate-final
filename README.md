@@ -391,6 +391,7 @@ Check the `quota_limit_value` in the error message:
 3. **Built-in Retry Logic**
    - The script automatically retries on rate limits with exponential backoff (60s, 120s, 180s)
    - A 5-second delay between chunks helps prevent hitting limits
+4. **Or Just Use Google's AI Studio directly**
 
 ---
 
