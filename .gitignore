@@ -1,0 +1,34 @@
+# Source videos (privacy - never commit participant data)
+/sources/
+*.mp4
+*.mov
+*.avi
+
+# Temp files from pipeline
+temp_*.mp4
+temp_compressed.mp4
+temp_chunk_*.mp4
+
+# Output annotations (may contain identifying timestamps)
+*_FINAL_ANNOTATIONS.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+env/
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# API keys (if stored in separate file)
+.env
+*.env
+credentials.json
